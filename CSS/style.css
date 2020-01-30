@@ -47,10 +47,63 @@ div::first-letter
 
 #tagH div
 {
-    color: tomato;
+    /* color:greenyellow; */
 }
 
 #tagH span
 {
-    color: blueviolet;
+    /* color: blueviolet; */
+}
+
+#tagH > div
+{
+    color: orchid;
+}
+
+p span 
+{
+    color: darkgoldenrod;
+}
+
+p > span
+{
+    color: aqua;
+}
+
+.plusCombinators + div
+{
+    /* color: brown; */
+}
+
+.plusCombinators ~div 
+{
+    color:burlywood;
+}
+input[type]
+{
+    color: blue;
+}
+input[type="password"]
+{
+    background-color: silver;
+}
+input[title~="this"]
+{
+    background-color: darksalmon;
+}
+input[title^="input"]
+{
+    background-color: forestgreen;
+}
+input[title|="input"]
+{
+    background-color:black;
+}
+input[title$="input"]
+{
+    background-color: teal;
+}
+input[title*="input"]
+{
+    background-color: hotpink;
 }
