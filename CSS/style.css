@@ -7,7 +7,7 @@ selector {
 
 .heading
 {
-    color: red;
+    color : coral;
 }
 
 #idName 
@@ -15,7 +15,42 @@ selector {
     color: red;
 }
 
-.class {
+.className {
     color: greenyellow;
 }
 
+.classCheckbox
+{
+    color: red;
+}
+
+input:checked 
+{
+    width: 20px;
+    height: 20px;
+}
+
+div:hover
+{
+    color: salmon;
+}
+
+div::before 
+{
+    /* content: "hello world"; */
+}
+
+div::first-letter
+{
+    color: slateblue;
+}
+
+#tagH div
+{
+    color: tomato;
+}
+
+#tagH span
+{
+    color: blueviolet;
+}
