@@ -1,0 +1,21 @@
+selector {
+    property: value;
+    property: value;
+    property: value;
+
+}
+
+.heading
+{
+    color: red;
+}
+
+#idName 
+{
+    color: red;
+}
+
+.class {
+    color: greenyellow;
+}
+
