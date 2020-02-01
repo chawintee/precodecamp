@@ -1,0 +1,65 @@
+.textAlign
+{
+    /* text-align: left ; */
+    /* text-align: right ; */
+    /* text-align: start ; */
+    /* text-align: center ; */
+    /* text-align: justify ; */
+}
+
+.verticalAlign
+{
+    /* vertical-align: super; */
+    /* vertical-align: sub; */
+}
+
+.textAlign
+{
+    /* word-spacing: 3mm; */
+}
+
+.textAlign
+{
+    /* text-decoration-line: underline; */
+    /* text-decoration-style: dotted; */
+    /* text-decoration-color: red; */
+    /* text-decoration: overline solid red; */
+}
+
+.textAlign
+{
+    text-indent: 10ch;
+}
+
+.textDirection
+{
+    width: 100vw;
+    direction: ltr;
+    /* direction: rtl; */
+    /* text-shadow:  10px -10px; */
+}
+
+@font-face
+{
+    font-family: Kanit ;
+    src: url(../../Kanit/Kanit-Regular.ttf);
+}
+
+p
+{
+    /* font-family: Kanit ; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* font-size: 16px; */
+    /* font-variant: small-caps; */
+}
+
+ul > li
+{
+    border: solid 1px black;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTpXJ1dBwoW9w7y_nM3kz-iTk7M8la6QSCvkX_7cDMXoDquacax);
+    /* list-style: circle inside url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTpXJ1dBwoW9w7y_nM3kz-iTk7M8la6QSCvkX_7cDMXoDquacax); */
+
+}
