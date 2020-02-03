@@ -1,0 +1,31 @@
+.flex
+{
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    background-color: aqua;
+    margin: 30px;
+}
+
+.flex > .item3
+{
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    background-color: lightsteelblue;
+    position: relative;
+    /* position: absolute; */
+    /* top: 500px; */
+    /* top: 100px; */
+    /* bottom: 100px; */
+    /* right: 100px; */
+    /* left: 100px; */
+    /* position: fixed; */
+
+}
+
+.container  
+{
+    display: flex;
+    flex: row;
+}
