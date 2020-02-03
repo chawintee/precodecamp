@@ -67,7 +67,20 @@ body
     margin: auto;
 }
 
+@font-face 
+{
+    font-family: Kanit;
+    src: url(../../Kanit/Kanit-Regular.ttf);
+}
 
+.pDisplay
+{
+    /* display: inline; */
+    display: contents;
+    border: 1px  black solid;
+    background-color: red;
+    font-family: Kanit;
+}
 
 
 .borderTable
