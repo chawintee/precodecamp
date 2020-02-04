@@ -1,0 +1,45 @@
+.bgTest
+{
+    background-color: aqua;
+}
+
+body
+{
+    background-color: violet;
+}
+
+.Name
+{
+        background-color: lightblue;
+        border: .8vw groove blueviolet;
+        font-size: 2vw;
+        text-align: center;
+        color: blueviolet;
+}
+
+.contact
+{
+    background-color: lemonchiffon;
+    border: .5vw dotted lightsalmon;
+    font-size: 1.8vw;
+    text-align: center;
+    color: salmon;
+}
+
+.Social
+{
+    background-color: lightpink;
+    border: .3vw dotted palevioletred;
+    font-size: 1.2vw;
+    text-align: center;
+    color: palevioletred;
+}
+
+.Education
+{
+    background-color: sandybrown;
+    border: .3vw dotted orangered;
+    font-size: 1.8vw;
+    text-align: center;
+    color: orangered;
+}
