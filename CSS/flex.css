@@ -1,11 +1,11 @@
 .container
 {
     display: flex;
-    /* flex-direction: column; */
+    /* flex-direction: row; */
     /* flex-direction: column-reverse; */
     /* flex-direction: row; */
     /* flex-direction: row-reverse; */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */
     /* flex-flow: row wrap; */
     /* flex-flow: column wrap-reverse; */
@@ -18,17 +18,22 @@
     /* justify-content: flex-end; */
 
 }
+
 .container > div
 {
     background-color: lightsalmon;
-    width: 400px;
-    height: 200px;
+    width: 150px;
+    height: 3000px;
     text-align: center;
     margin: 10px;
 }
 
 .item5
 {
+    background-color: rgb(2, 243, 2);
+    position: sticky ;
+    top: 20px;
+    /* left: 50%; */
     /* order: -1; */
     /* order: 1; */
     /* default order = 0; */
