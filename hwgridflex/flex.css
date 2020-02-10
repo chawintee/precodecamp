@@ -1,0 +1,211 @@
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+
+}
+
+.container > div
+{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+
+ul
+{
+    list-style-type: non;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+div >.item1
+{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(128, 199, 240);
+} 
+
+.item1 >img
+{
+    width: 350px;
+    height: 400px;
+    margin: 40px;
+}
+
+
+div >.item2
+{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(128, 199, 240);
+} 
+
+.item2 >img
+{
+    width: 350px;
+    height: 400px;
+    margin: 40px;
+}
+
+div >.item3
+{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(128, 199, 240);
+} 
+
+.item3 >img
+{
+    width: 350px;
+    height: 400px;
+    margin: 40px;
+}
+
+div >.item4
+{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(128, 199, 240);
+} 
+
+.item4 >img
+{
+    width: 350px;
+    height: 400px;
+    margin: 40px;
+}
+
+
+
+div >.item5
+{
+    width: 2000px;
+    height: 450px;
+    background-color: lightgreen;
+} 
+
+.item5 >img
+{
+    width: 1800px;
+    height: 300px;
+    margin: 50px;
+}
+
+div >.item6
+{
+    width: 2000px;
+    height: 450px;
+    background-color: lightgreen;
+} 
+
+.item6 >img
+{
+    width: 1800px;
+    height: 300px;
+    margin: 50px;
+}
+
+div >.item7
+{
+    width: 2000px;
+    height: 450px;
+    background-color: lightgreen;
+} 
+
+.item7 >img
+{
+    width: 1800px;
+    height: 300px;
+    margin: 50px;
+}
+
+div >.item8
+{
+    width: 2000px;
+    height: 450px;
+    background-color: lightgreen;
+} 
+
+.item8 >img
+{
+    width: 1800px;
+    height: 300px;
+    margin: 50px;
+}
+
+div >.item9
+{
+    width: 2000px;
+    height: 450px;
+    background-color: lightgreen;
+} 
+
+.item9 >img
+{
+    width: 1800px;
+    height: 300px;
+    margin: 50px;
+}
+
+div >.item10
+{
+    width: 2000px;
+    height: 450px;
+    background-color: lightgreen;
+} 
+
+.item10 >img
+{
+    width: 1800px;
+    height: 300px;
+    margin: 50px;
+}
+
+div >.item11
+{
+    width: 2000px;
+    height: 450px;
+    background-color: lightgreen;
+} 
+
+.item11 >img
+{
+    width: 1800px;
+    height: 300px;
+    margin: 50px;
+}
+
