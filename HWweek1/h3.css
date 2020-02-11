@@ -1,0 +1,12 @@
+body
+{
+    background-color: cornsilk;
+}
+
+table,thead,tbody,th,tr,td
+{
+    border: 1px dotted black;
+    border-collapse: collapse;
+    font-size: 120%;
+
+}
