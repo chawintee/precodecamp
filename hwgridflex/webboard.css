@@ -1,0 +1,116 @@
+body 
+{
+    background-color: #DAE0E6;
+}
+
+.topnav
+{
+    background-color: #ffffff;
+    margin-top: 0;
+    margin-left: 0;
+    height: 50px;
+}
+
+
+.topnav .in1
+{
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.topnav .in2
+{
+    float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 10px 10px 10px 10px ;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.topnav .in5
+{
+    float: right;
+    display: block;
+    color: blue;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.topnav .in4
+{
+    float: right;
+    display: block;
+    color: blue;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.topnav .in3
+{
+    float: right;
+    display: block;
+    color: blue;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.topcontainer
+{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.topcontainer > div
+{
+    height: 12vmax;
+    width: 20vmax;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.container
+{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   width: 80%;
+   margin-left: 8%;
+}
+
+.container > div
+{
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
